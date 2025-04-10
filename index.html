@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Habit Shop RPG</title>
+  <style>
+    body { font-family: sans-serif; max-width: 800px; margin: auto; }
+    .habit, .shop-item { display: flex; align-items: center; margin: 8px 0; }
+    button { margin: 0 4px; }
+    .disabled { opacity: 0.5; pointer-events: none; }
+  </style>
+</head>
+<body>
+  <h1>Habit Shop RPG</h1>
+  <button id="newDay">New Day</button>
+  <h2>Habits</h2>
+  <div id="habits"></div>
+  <h2>Credits: <span id="credits">0</span></h2>
+  <h2>Shop</h2>
+  <div id="shop"></div>
+  <h2>XP: <span id="xp">0</span> | Level: <span id="level">0</span> | Next: <span id="nextXp">100</span></h2>
+  <h2>Rank: <span id="rank">F</span></h2>
+  <script src="script.js"></script>
+</body>
+</html>
